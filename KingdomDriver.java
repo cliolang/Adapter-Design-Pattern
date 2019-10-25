@@ -3,8 +3,8 @@ public class KingdomDriver {
 
 	public static void main(String[] args) {
 		Warrior warrior1 = new Knight();
-		Wizard sorcerer = new Sorcerer();
-		Warrior warrior2 = new WizardAdapter(sorcerer);
+		Wizard sorceror = new Sorceror();
+		Warrior warrior2 = new WizardAdapter(sorceror);
 		
 		System.out.println("***** OFFENSE *****");
 		warrior1.attack();
