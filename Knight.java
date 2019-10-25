@@ -9,7 +9,7 @@ public class Knight implements Warrior {
    */
   @Override
   public void attack() {
-    System.out.println("Attacking: I'm bringing you down!");
+    System.out.println("Attacking: I'm bringing you down!!!!!!!!!!!!!");
   }
   
   /*
@@ -17,7 +17,7 @@ public class Knight implements Warrior {
    */
   @Override
   public void defend() {
-    System.out.println("Defending: We must protect the castle");
+    System.out.println("Defending: We must protect the castle!!!!!!!!!!!");
   }
 
 }
